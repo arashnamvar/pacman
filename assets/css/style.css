@@ -1,42 +1,62 @@
 #main_container{
-	margin: 0 auto;
-	height: 700px;
-	width: 700px;
+    margin: 0 auto;
+    height: 700px;
+    width: 700px;
 }
 .block{
-	background-color: black;
-	display: inline-block;
-	border-collapse: collapse;
-	margin-right: -4px;
-	margin-bottom: -4px;
-	/*position: absolute;*/
-	height: 32px;
-	width: 32px;
+    background-color: black;
+    display: inline-block;
+    border-collapse: collapse;
+    margin-right: -4px;
+    margin-bottom: -4px;
+    /*position: absolute;*/
+    height: 32px;
+    width: 32px;
 }
 .wall{
-	background-color: blue;
+    background-color: blue;
 }
 .coin{
-	background-image: url('../img/coin.gif');
-	background-repeat: no-repeat;
-	background-position: center;
+    background-image: url('../img/coin.gif');
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.pacman{
-	background-image: url('../img/pacman.gif');
-	background-size: 25px 25px;
-	background-repeat: no-repeat;
-	background-position: center;
-	transform: rotate(180deg);]
+.pacman_left {
+    background-image: url('../img/pacman.gif');
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);]
+}
+.pacman_right {
+    background-image: url('../img/pacman.gif');
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pacman_up {
+    background-image: url('../img/pacman.gif');
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-90deg);]
+}
+.pacman_down {
+    background-image: url('../img/pacman.gif');
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(90deg);]
 }
 .score{
-	position: relative;
-	top: 45px;
-	left: 275px;
-	color: gold;
-	font-weight: bolder;
-	font-size: 1.3em;
-	border: 3px solid gold;
-	width: 80px;
-	text-align: right;
-	padding: 3px;
+    position: relative;
+    top: 45px;
+    left: 275px;
+    color: gold;
+    font-weight: bolder;
+    font-size: 1.3em;
+    border: 3px solid gold;
+    width: 80px;
+    text-align: right;
+    padding: 3px;
 }
